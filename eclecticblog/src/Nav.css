@@ -21,13 +21,13 @@
     position: absolute;
     width: 100%;
     height: 12vh;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     border-top: 1px solid#04D700;
     color: white;
     display: flex; 
     justify-content:space-between;
     align-items: center;
-
+    margin-top: 3%;
 }
 
 .footer img {
