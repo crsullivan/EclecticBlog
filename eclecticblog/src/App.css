@@ -1,0 +1,40 @@
+.App {
+  /* text-align: center; */
+  min-height: 100vh;
+}
+
+.date {
+  /* background: red; */
+  width: 90%;
+  margin:auto;
+  border-bottom: 1px solid #04D700;
+  padding-left: 2%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.postContainer {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.picture {
+  margin-top: 1%;
+  max-width: 400px;
+  max-height: 250px;
+
+}
+
+.content h1 {
+  margin-left: 2%;
+}
+
+.content p {
+  width: 80%;
+  margin-top: 0;
+  margin: auto;
+  margin-bottom: 2%;
+
+}
