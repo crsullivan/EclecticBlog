@@ -1,3 +1,65 @@
+@media only screen and (max-width: 600px) {
+    .navbar {
+      max-width: 100%;
+    }
+
+    .navbar .Logo {
+        min-width: 40%;
+        margin-left: 6%;
+        margin-top: 1%;
+    }
+
+    .links {
+        min-width: 50%;
+        margin-bottom: 2%;
+    }
+
+
+    .footer {
+        background-color: #404040;
+        position: absolute;
+        max-width: auto;
+        min-height: 40%;
+        margin: 0 auto;
+        border-top: 1px solid#04D700;
+        color: white;
+        display: flex; 
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+    
+    }
+
+    .footer img {
+        min-width: 50%;
+        margin-top:-5%;
+
+    }
+    
+    .copyright {
+        display: flex;
+        align-items: center;
+        min-width: 50%;
+        /* margin: auto; */
+        align-content: center;
+
+    
+    }
+    
+    .Name {
+        margin-left: .5%;
+        color: #04fd00;
+
+    }
+
+    .footer .links a {
+        display: flex;
+        justify-content: space-around;
+        color: #36ff33;
+        text-decoration: none;
+    }
+}  
+
 .navbar {
     height: 12vh;
     width: 100%;
@@ -25,6 +87,8 @@
 .navTitle a {
     text-decoration: none;
     margin-right: 4%;
+    color: hsl(276, 97%, 76%);
+
     /* align-content: center; */
 }
 
