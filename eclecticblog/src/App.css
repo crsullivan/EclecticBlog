@@ -29,8 +29,9 @@
 
 .picture {
   margin-top: 1%;
-  max-width: 400px;
-  max-height: 250px;
+  min-width: 40%;
+  /* min-height: 5%;
+  max-height: 10%; */
 
 }
 
