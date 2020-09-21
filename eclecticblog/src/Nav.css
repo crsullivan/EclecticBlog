@@ -1,18 +1,36 @@
 .navbar {
     height: 12vh;
-    /* background-color: #222222; */
     width: 100%;
-    /* margin: auto; */
-    /* border-bottom: .01px solid #04D700; */
-    /* padding-bottom: .5%; */
-    text-decoration: none;
+    justify-content: space-between;
     display: flex;
     margin-bottom: 1%;
+    
+}
+
+.navTitle {
+    justify-content: left;
+    font-size: 1.6em;
+    color: hsl(276, 97%, 76%);
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;    
+    margin-right: 6%;
+    margin-top: 2%;
+
+}
+
+.navTitle a {
+    text-decoration: none;
+    margin-right: 4%;
+    /* align-content: center; */
 }
 
 .navbar .Logo {
     width: 15%;
-    margin-left: 2%;
+    margin-left: 6%;
     margin-top: 1%;
 }
 
